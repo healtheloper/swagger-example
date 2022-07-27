@@ -10,7 +10,7 @@ const options = {
       description: 'Todo API with express',
     },
   },
-  apis: ['./src/app.js', './src/swagger/*'],
+  apis: ['./src/routers/*.js', './src/swagger/*'],
 };
 
 const specs = swaggereJsdoc(options);
