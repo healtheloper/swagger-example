@@ -9,8 +9,6 @@ const options = {
       version: '1.0.0',
       description: 'Todo API with express',
     },
-    host: 'localhost:3000',
-    basePath: '/',
   },
   apis: ['./src/app.js', './src/swagger/*'],
 };
