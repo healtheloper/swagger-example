@@ -1,0 +1,8 @@
+components:
+  schemas:
+    CreateTodo:
+      type: object
+      properties:
+        subject:
+          type: string
+          description: Todo 내용

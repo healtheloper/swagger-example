@@ -1,0 +1,11 @@
+components:
+  schemas:
+    Todo:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: todo id
+        subject:
+          type: string
+          description: todo subject
